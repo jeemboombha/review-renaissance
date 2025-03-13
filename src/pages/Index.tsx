@@ -1,10 +1,15 @@
 
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import PendingVerifications from './PendingVerifications';
 
 const Index = () => {
-  return <PendingVerifications />;
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    navigate('/faculty-dashboard');
+  }, [navigate]);
+
+  return null;
 };
 
 export default Index;
