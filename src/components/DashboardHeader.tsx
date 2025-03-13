@@ -1,13 +1,13 @@
 
 import { Link } from 'react-router-dom';
-import { ChalkboardTeacher, Home, Info, MessageSquare } from 'lucide-react';
+import { GraduationCap, Home, Info, MessageSquare } from 'lucide-react';
 
 const DashboardHeader = () => {
   return (
     <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-8 pb-6 border-b border-border">
       <div className="flex items-center space-x-2">
         <div className="h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center">
-          <ChalkboardTeacher className="h-5 w-5 text-primary" />
+          <GraduationCap className="h-5 w-5 text-primary" />
         </div>
         <h1 className="text-2xl font-bold tracking-tight">Faculty Portal</h1>
       </div>
