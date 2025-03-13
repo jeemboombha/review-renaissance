@@ -8,6 +8,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import PendingVerifications from "./pages/PendingVerifications";
 import FacultyDashboard from "./pages/FacultyDashboard";
+import StudentDirectory from "./pages/StudentDirectory";
 
 const queryClient = new QueryClient();
 
@@ -21,6 +22,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/pending-verifications" element={<PendingVerifications />} />
           <Route path="/faculty-dashboard" element={<FacultyDashboard />} />
+          <Route path="/student-directory" element={<StudentDirectory />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

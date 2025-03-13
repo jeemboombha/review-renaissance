@@ -11,7 +11,7 @@ const FacultyDashboard = () => {
 
   const handleViewStudents = () => {
     console.log('View Students');
-    // navigate('/faculty-dashboard/student-directory');
+    navigate('/student-directory');
   };
 
   const handleViewPending = () => {
